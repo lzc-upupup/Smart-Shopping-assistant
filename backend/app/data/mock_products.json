@@ -1,0 +1,227 @@
+[
+  {
+    "id": "laptop-macbook-air-m3",
+    "name": "MacBook Air 13 M3",
+    "category": "laptop",
+    "brand": "Apple",
+    "price": 7999,
+    "rating": 4.8,
+    "sales": 8600,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/laptop-macbook-air-m3",
+    "tags": ["轻薄", "长续航", "办公", "编程"],
+    "specs": {
+      "CPU": "Apple M3",
+      "Memory": "16GB",
+      "Storage": "512GB",
+      "Weight": "1.24kg"
+    },
+    "pros": ["续航强", "机身轻薄", "屏幕素质好", "适合移动办公和编程"],
+    "cons": ["接口较少", "高负载散热空间有限"],
+    "best_for": ["办公", "编程", "通勤"]
+  },
+  {
+    "id": "laptop-lenovo-legion-r7000",
+    "name": "Lenovo Legion R7000",
+    "category": "laptop",
+    "brand": "Lenovo",
+    "price": 7299,
+    "rating": 4.6,
+    "sales": 12400,
+    "image": "https://images.unsplash.com/photo-1603302576837-37561b2e2302?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/laptop-lenovo-legion-r7000",
+    "tags": ["高性能", "游戏", "剪视频", "高刷新率"],
+    "specs": {
+      "CPU": "Ryzen 7",
+      "GPU": "RTX 4060",
+      "Memory": "16GB",
+      "Screen": "165Hz"
+    },
+    "pros": ["性能释放强", "适合游戏和视频剪辑", "屏幕刷新率高"],
+    "cons": ["重量偏高", "满载噪音明显"],
+    "best_for": ["游戏", "剪视频", "高性能任务"]
+  },
+  {
+    "id": "laptop-asus-vivobook-pro",
+    "name": "Asus VivoBook Pro 15",
+    "category": "laptop",
+    "brand": "Asus",
+    "price": 6499,
+    "rating": 4.5,
+    "sales": 5200,
+    "image": "https://images.unsplash.com/photo-1588872657578-7efd1f1555ed?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/laptop-asus-vivobook-pro",
+    "tags": ["性价比", "剪视频", "办公", "高性能"],
+    "specs": {
+      "CPU": "Core Ultra 7",
+      "GPU": "RTX 4050",
+      "Memory": "16GB",
+      "Screen": "2.8K OLED"
+    },
+    "pros": ["屏幕显示细腻", "性能和价格平衡", "适合轻中度视频剪辑"],
+    "cons": ["续航一般", "机身质感中规中矩"],
+    "best_for": ["剪视频", "办公", "性价比"]
+  },
+  {
+    "id": "headphones-sony-wh1000xm5",
+    "name": "Sony WH-1000XM5",
+    "category": "headphones",
+    "brand": "Sony",
+    "price": 2199,
+    "rating": 4.8,
+    "sales": 16800,
+    "image": "https://images.unsplash.com/photo-1545127398-14699f92334b?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/headphones-sony-wh1000xm5",
+    "tags": ["降噪", "无线", "通勤", "长续航"],
+    "specs": {
+      "NoiseCancelling": "主动降噪",
+      "Battery": "30h",
+      "Weight": "250g"
+    },
+    "pros": ["降噪表现强", "佩戴舒适", "通勤体验好"],
+    "cons": ["价格偏高", "折叠收纳不如上一代"],
+    "best_for": ["通勤", "降噪", "办公"]
+  },
+  {
+    "id": "headphones-bose-qc-ultra",
+    "name": "Bose QuietComfort Ultra",
+    "category": "headphones",
+    "brand": "Bose",
+    "price": 2499,
+    "rating": 4.7,
+    "sales": 9400,
+    "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/headphones-bose-qc-ultra",
+    "tags": ["降噪", "无线", "舒适", "通勤"],
+    "specs": {
+      "NoiseCancelling": "主动降噪",
+      "Battery": "24h",
+      "Weight": "254g"
+    },
+    "pros": ["佩戴舒适度高", "降噪稳定", "人声通话清晰"],
+    "cons": ["价格高", "音色调校偏保守"],
+    "best_for": ["通勤", "降噪", "长时间佩戴"]
+  },
+  {
+    "id": "keyboard-keychron-k3-pro",
+    "name": "Keychron K3 Pro",
+    "category": "keyboard",
+    "brand": "Keychron",
+    "price": 598,
+    "rating": 4.6,
+    "sales": 7600,
+    "image": "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/keyboard-keychron-k3-pro",
+    "tags": ["机械键盘", "无线", "轻薄", "编程"],
+    "specs": {
+      "Layout": "75%",
+      "Connection": "Bluetooth / Wired",
+      "Switch": "Low profile"
+    },
+    "pros": ["轻薄便携", "多设备切换方便", "适合编程"],
+    "cons": ["矮轴手感需要适应", "键帽选择较少"],
+    "best_for": ["编程", "办公", "通勤"]
+  },
+  {
+    "id": "keyboard-logitech-mx-mechanical",
+    "name": "Logitech MX Mechanical",
+    "category": "keyboard",
+    "brand": "Logitech",
+    "price": 899,
+    "rating": 4.5,
+    "sales": 6800,
+    "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/keyboard-logitech-mx-mechanical",
+    "tags": ["机械键盘", "无线", "办公", "长续航"],
+    "specs": {
+      "Layout": "Full size",
+      "Connection": "Bluetooth / 2.4G",
+      "Battery": "15 days with backlight"
+    },
+    "pros": ["办公生态完整", "续航稳定", "连接可靠"],
+    "cons": ["价格偏高", "可玩性不如客制化键盘"],
+    "best_for": ["办公", "编程", "多设备"]
+  },
+  {
+    "id": "monitor-dell-u2723qe",
+    "name": "Dell U2723QE",
+    "category": "monitor",
+    "brand": "Dell",
+    "price": 3399,
+    "rating": 4.7,
+    "sales": 5800,
+    "image": "https://images.unsplash.com/photo-1527443224154-c4a3942d3acf?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/monitor-dell-u2723qe",
+    "tags": ["办公", "编程", "4k", "色彩"],
+    "specs": {
+      "Size": "27 inch",
+      "Resolution": "4K",
+      "Panel": "IPS Black",
+      "USB-C": "90W"
+    },
+    "pros": ["文字清晰", "接口丰富", "适合长时间办公"],
+    "cons": ["不适合高刷游戏", "价格高于普通 4K 显示器"],
+    "best_for": ["办公", "编程", "修图"]
+  },
+  {
+    "id": "monitor-xiaomi-g27q",
+    "name": "Xiaomi G27Q",
+    "category": "monitor",
+    "brand": "Xiaomi",
+    "price": 1399,
+    "rating": 4.4,
+    "sales": 14200,
+    "image": "https://images.unsplash.com/photo-1593640495253-23196b27a87f?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/monitor-xiaomi-g27q",
+    "tags": ["游戏", "高刷新率", "性价比", "2k"],
+    "specs": {
+      "Size": "27 inch",
+      "Resolution": "2K",
+      "RefreshRate": "180Hz",
+      "Panel": "Fast IPS"
+    },
+    "pros": ["刷新率高", "价格有优势", "适合游戏"],
+    "cons": ["支架调节一般", "色彩一致性普通"],
+    "best_for": ["游戏", "性价比", "日常娱乐"]
+  },
+  {
+    "id": "phone-iphone-15",
+    "name": "iPhone 15",
+    "category": "phone",
+    "brand": "Apple",
+    "price": 4599,
+    "rating": 4.7,
+    "sales": 28600,
+    "image": "https://images.unsplash.com/photo-1695048133142-1a20484d2569?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/phone-iphone-15",
+    "tags": ["拍照", "长续航", "轻薄", "办公"],
+    "specs": {
+      "Storage": "128GB",
+      "Screen": "6.1 inch",
+      "Camera": "48MP"
+    },
+    "pros": ["系统流畅", "拍照稳定", "保值率较高"],
+    "cons": ["高刷缺失", "充电速度一般"],
+    "best_for": ["拍照", "日常", "苹果生态"]
+  },
+  {
+    "id": "phone-redmi-k70",
+    "name": "Redmi K70",
+    "category": "phone",
+    "brand": "Xiaomi",
+    "price": 2499,
+    "rating": 4.5,
+    "sales": 23200,
+    "image": "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=900&q=80",
+    "url": "https://example.com/products/phone-redmi-k70",
+    "tags": ["性价比", "高性能", "游戏", "高刷新率"],
+    "specs": {
+      "CPU": "Snapdragon 8 Gen 2",
+      "Screen": "2K 120Hz",
+      "Battery": "5000mAh"
+    },
+    "pros": ["性能强", "屏幕规格高", "价格有竞争力"],
+    "cons": ["影像不是旗舰水平", "机身质感一般"],
+    "best_for": ["游戏", "性价比", "日常"]
+  }
+]
