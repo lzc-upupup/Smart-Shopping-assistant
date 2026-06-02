@@ -22,9 +22,24 @@ frontend/  Vue + Vite 前端
 
 ## 后端启动
 
+后端会自动读取以下位置的 `.env`：
+
+- 项目根目录 `.env`
+- `backend/.env`
+- `backend/app/.env`
+
+支持 OpenAI 兼容接口：
+
+```powershell
+LLM_API_KEY=your-api-key
+LLM_BASE_URL=https://api.openai.com/v1
+LLM_MODEL_ID=gpt-4o-mini
+```
+
 ```powershell
 cd backend
 conda activate shopping-agent
+pip install -r requirements.txt
 python -m uvicorn app.main:app --reload --port 8000
 ```
 

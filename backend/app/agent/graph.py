@@ -59,6 +59,7 @@ def run_shopping_agent(request: ChatRequest) -> ChatResponse:
             "message": request.message,
             "session_id": session_id,
             "history": request.history,
+            "steps": [],
         }
     )
 
@@ -67,6 +68,7 @@ def run_shopping_agent(request: ChatRequest) -> ChatResponse:
         reply=result["reply"],
         needs_clarification=result.get("needs_clarification", False),
         clarification_questions=result.get("clarification_questions", []),
+        steps=result.get("steps", []),
         intent=result["intent"],
         products=result.get("products", []),
         comparison=result.get("comparison"),

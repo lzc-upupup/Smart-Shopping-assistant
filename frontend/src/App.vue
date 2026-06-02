@@ -15,6 +15,7 @@ const messages = ref([
 const products = ref([])
 const comparison = ref(null)
 const catalog = ref([])
+const steps = ref([])
 
 const history = computed(() =>
   messages.value.map((message) => ({
@@ -53,6 +54,7 @@ async function submitMessage() {
     messages.value.push({ role: 'assistant', content: response.reply })
     products.value = response.products || []
     comparison.value = response.comparison
+    steps.value = response.steps || []
   } catch (err) {
     error.value = '请求失败，请确认 FastAPI 服务运行在 8000 端口。'
   } finally {
@@ -82,7 +84,7 @@ function formatPrice(price) {
             <p class="eyebrow">Shopping Agent</p>
             <h1>智能购物助手</h1>
           </div>
-          <span class="status-dot">Mock</span>
+          <span class="status-dot">LLM + Mock</span>
         </header>
 
         <div class="quick-prompts">
@@ -124,6 +126,17 @@ function formatPrice(price) {
       </div>
 
       <aside class="results-panel">
+        <section v-if="steps.length" class="result-block">
+          <div class="section-heading">
+            <h2>执行过程</h2>
+            <span>{{ steps.length }} 步</span>
+          </div>
+
+          <ol class="agent-steps">
+            <li v-for="step in steps" :key="step">{{ step }}</li>
+          </ol>
+        </section>
+
         <section class="result-block">
           <div class="section-heading">
             <h2>候选商品</h2>

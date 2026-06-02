@@ -310,6 +310,21 @@ h3 {
   font-weight: 700;
 }
 
+.agent-steps {
+  display: grid;
+  gap: 8px;
+  margin: 0;
+  padding-left: 22px;
+  color: #304338;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.agent-steps li::marker {
+  color: #25603a;
+  font-weight: 800;
+}
+
 .decision-note {
   color: #304338;
   line-height: 1.6;

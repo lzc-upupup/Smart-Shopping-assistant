@@ -9,6 +9,7 @@ class ShoppingAgentState(TypedDict, total=False):
     session_id: str
     history: list[ChatMessage]
     intent: ShoppingIntent
+    steps: list[str]
     needs_clarification: bool
     clarification_questions: list[str]
     products: list[Product]

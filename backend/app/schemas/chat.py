@@ -29,6 +29,7 @@ class ChatResponse(BaseModel):
     reply: str
     needs_clarification: bool
     clarification_questions: list[str] = Field(default_factory=list)
+    steps: list[str] = Field(default_factory=list)
     intent: ShoppingIntent
     products: list[Product] = Field(default_factory=list)
     comparison: ProductComparison | None = None
